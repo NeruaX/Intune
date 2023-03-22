@@ -1,4 +1,4 @@
-﻿Import-module Microsoft.PowerShell.Management
+Import-module Microsoft.PowerShell.Management
 Import-Module Microsoft.PowerShell.Utility
 Import-Module ScheduledTasks
 
