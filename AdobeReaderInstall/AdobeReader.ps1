@@ -19,7 +19,7 @@ Import-Module Microsoft.PowerShell.Utility
 
     win32 wrap
         Install as: system
-        Install Command: powershell.exe -ExecutionPolicy Bypass -NoLogo -noninteractive -File GoogleChrome.ps1
+        Install Command: powershell.exe -ExecutionPolicy Bypass -NoLogo -noninteractive -File AdobeReader.ps1
         Detection: File
             File Path: C:\Program Files\Adobe\Acrobat DC\Acrobat
             File: Acrobat.exe
