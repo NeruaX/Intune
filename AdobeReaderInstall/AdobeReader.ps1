@@ -99,5 +99,3 @@ Start-Process -filepath $Path$Installer -argumentlist $Arguments -Wait
 
 #Cleanup
 Remove-Item $Path$Installer
-
-#C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe
