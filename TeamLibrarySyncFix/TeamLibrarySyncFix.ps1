@@ -1,4 +1,4 @@
-Import-module Microsoft.PowerShell.Management
+﻿Import-module Microsoft.PowerShell.Management
 Import-Module Microsoft.PowerShell.Utility
 Import-Module ScheduledTasks
 
@@ -7,12 +7,16 @@ Import-Module ScheduledTasks
     #       Notes       #
     ##################### 
     Some parts are not necesary or over complicated but allows for template deploy with minimal changes for next script.
+    
     create task to trigger at log in or unlock of any user to call file 2 as user. Admin Locked task. 
     creates user task to trigger at user log in or unlock to update registry key.
     Uses VBS files to stay silent as user to avoid powershell pop up at login.
     Section for 32bit to 64bit change may not be needed.
     Files Admin change only
     Version key for Win32 wrap detection / file updates on update if script only
+    
+    This can be ran as a script or wraped into a .intunewin file
+    
     win32 wrap
         Install as: system
         Install Command: powershell.exe -ExecutionPolicy Bypass -NoLogo -noninteractive -File TeamLibrarySyncFix.ps1
@@ -28,8 +32,10 @@ Import-Module ScheduledTasks
     ##################### 
     Add additional failure checks
         Task does not create
-        Task with same name exists (Replace instead of skip?)
-    Restart Onedrive after reg change so works on initial push (possible diruption but should be minimal)
+        Task with same name exists 
+            Replace instead of skip?
+    Restart Onedrive after reg change so works on initial push 
+        possible diruption but should be minimal
     Test 64bit switch required
     Implement intune return codes
     Implement Event Viewer logging
