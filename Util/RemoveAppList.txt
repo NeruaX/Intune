@@ -1,5 +1,8 @@
-Microsoft.BingWeather
+Clipchamp.Clipchamp
+Microsoft.BingNews
 Microsoft.BingSports
+Microsoft.BingWeather
+Microsoft.GamingApp
 Microsoft.GetHelp
 Microsoft.Getstarted
 Microsoft.MicrosoftOfficeHub
@@ -7,8 +10,10 @@ Microsoft.MicrosoftSolitaireCollection
 Microsoft.MixedReality.Portal
 Microsoft.People
 Microsoft.Office.OneNote
+Microsoft.PowerAutomateDesktop
 Microsoft.RemoteDesktop
 Microsoft.SkypeApp
+Microsoft.Todos
 Microsoft.windowscommunicationsapps
 Microsoft.WindowsFeedbackHub
 Microsoft.XboxApp
